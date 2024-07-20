@@ -30,7 +30,12 @@ It manages user authentication states, displays navigation links conditionally b
   </header>
 
   <!-- RouterView to display the current route's component -->
-  <RouterView />
+  <div id="router">
+    <RouterView />
+  </div>
+  <div id="footer">
+    <footer>&copy2024 joewari</footer>
+  </div>
 </template>
 
 <script setup>
@@ -121,3 +126,14 @@ What is storeToRefs?
 In order to extract properties from the store while keeping its reactivity, you need to use storeToRefs(). It will create refs for every reactive property. This is useful when you are only using state from the store but not calling any action. Note you can destructure actions directly from the store as they are bound to the store itself too.
 Link: https://pinia.vuejs.org/core-concepts/
 -->
+
+<style scoped>
+#router {
+  margin-top: 2em;
+  text-align: left;
+}
+footer {
+  margin-top: 15px;
+  text-align: center;
+}
+</style>

@@ -5,7 +5,7 @@ allowing users to mark tasks as completed and delete them, leveraging global sta
 -->
 
 <template>
-  <h4>This Page Displays all tasks</h4>
+  <h4>All tasks</h4>
 
   <div class="container">
     <!-- Conditional rendering to display user-specific tasks if available, otherwise display all tasks -->

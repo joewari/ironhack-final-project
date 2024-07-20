@@ -1,7 +1,10 @@
 <template>
   <main class="container">
     <h4>About View</h4>
-    <button @click="incrementNumberFunctionFromStore">Add +1</button>
+    <p>
+      The my to do application app was designed to help individuals,<br />companies
+      and businesses to manage tasks and assignments.
+    </p>
   </main>
 </template>
 

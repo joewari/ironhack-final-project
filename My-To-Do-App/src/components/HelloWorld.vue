@@ -12,3 +12,10 @@ defineProps({
     <h1 class="green">{{ msg }}</h1>
   </div>
 </template>
+<style scoped>
+* {
+  color: rgb(238, 78, 4);
+  margin-bottom: 1em;
+  text-align: center;
+}
+</style>

@@ -4,7 +4,7 @@ By building this component, we will achieve a user interface that shows a list o
 -->
 
 <template>
-  <h4>This Page Displays completed tasks</h4>
+  <h4>Completed tasks</h4>
   <div class="container">
     <!-- Display EXAMPLE TASKS THAT BELONG TO THE USER -->
     <ul v-if="userCompletedTasks.length > 0">
